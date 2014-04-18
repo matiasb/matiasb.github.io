@@ -32,7 +32,7 @@
       <small class="post-meta">
          {{ page.date | date_to_string }} |
          {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. |
-         <a href="{{ site.url }}{{ page.url }}#disqus_thread">Comments</a>
+         <a href="#disqus_thread"></a>
       </small></h1>
       <h2>{{ page.tagline }}</h2>
     </div><!--/ .headline-wrap -->
@@ -69,11 +69,13 @@
     <hr />
   </div><!-- /.related-articles -->{% endif %}
 
+  {% if page.allow_comments != false %}
   <div class="related-articles">
     <div id="disqus_thread"></div>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
+  {% endif %}
 
   <footer>
     {% include _footer.html %}
@@ -82,6 +84,7 @@
 
 {% include _scripts.html %}
 
+{% if page.allow_comments != false %}
 <script type="text/javascript">
     var disqus_shortname = 'matiasb';
 
@@ -98,6 +101,7 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
+{% endif %}
 
 </body>
 </html>
