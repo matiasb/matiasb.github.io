@@ -31,7 +31,8 @@
       <h1>{{ page.title }}<br/>
       <small class="post-meta">
          {{ page.date | date_to_string }} |
-         {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min.
+         {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. |
+         <a href="{{ site.url }}{{ page.url }}#disqus_thread">Comments</a>
       </small></h1>
       <h2>{{ page.tagline }}</h2>
     </div><!--/ .headline-wrap -->
@@ -45,6 +46,7 @@
         <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <a href="{{ site.url }}/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>.</p>
       </footer>
     </div><!-- /.article-wrap -->
+
   </article>
 </div><!-- /#main -->
 
@@ -66,12 +68,36 @@
     </ul>
     <hr />
   </div><!-- /.related-articles -->{% endif %}
+
+  <div class="related-articles">
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
   <footer>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}	        
+{% include _scripts.html %}
+
+<script type="text/javascript">
+    var disqus_shortname = 'matiasb';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 
 </body>
 </html>
