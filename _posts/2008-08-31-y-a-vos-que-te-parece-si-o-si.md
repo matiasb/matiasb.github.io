@@ -2,6 +2,7 @@
 title: Y a vos qué te parece? Sí o... sí?
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [humor]
 ---

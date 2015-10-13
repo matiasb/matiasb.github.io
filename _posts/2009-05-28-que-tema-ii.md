@@ -2,6 +2,7 @@
 title: Qué tema II
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [delirio, ñoño]
 ---

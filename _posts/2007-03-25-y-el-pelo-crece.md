@@ -2,6 +2,7 @@
 title: Y el pelo crece...
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [tesis, famaf]
 ---

@@ -2,6 +2,7 @@
 title: Hacelo por mi
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [delirio, ñoño]
 ---

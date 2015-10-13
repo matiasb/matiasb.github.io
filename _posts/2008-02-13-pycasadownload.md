@@ -2,6 +2,7 @@
 title: PycasaDownload
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [python, proyecto, picasa]
 ---

@@ -2,6 +2,7 @@
 title: Nadie sabe cuánto te extraño...
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [futbol]
 ---

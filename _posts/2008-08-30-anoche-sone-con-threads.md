@@ -2,6 +2,7 @@
 title: Anoche soñé con threads
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [delirio, sueños]
 ---

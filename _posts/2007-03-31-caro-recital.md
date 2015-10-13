@@ -2,6 +2,7 @@
 title: Caro Recital
 author: matiasb
 layout: post
+comments: true
 categories: [es]
 tags: [musica, recital, los piojos]
 ---
