@@ -42,6 +42,25 @@ body {
 	}
 }
 
+.nav-tags {
+    margin-top: 15px;
+}
+
+.nav-tags span a {
+    display: inline-block;
+    margin-right: 12px;
+  &:hover {
+    @include scale(1.1);
+  }
+  &:active {
+    @include translate(0, 2px);
+  }
+}
+
+.post-tags {
+    text-align: right;
+}
+
 /* Top navigation links */
 .top-navigation {
 	@include grid(12,10);

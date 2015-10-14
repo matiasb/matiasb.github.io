@@ -48,6 +48,7 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
+      <p class="post-tags"><small><i class="fa fa-tag"></i> {% for tag in page.tags %} <a href="/tags/#{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> {% if forloop.last != true %} {% endif %} {% endfor %}</small></p>
       <hr />
       <footer role="contentinfo">
         {% if page.share != false %}{% include _social-share.html %}{% endif %}
