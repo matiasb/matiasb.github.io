@@ -19,9 +19,9 @@ date: 2015-10-30T21:36:19-03:00
 Transmission
 ------------
 
-Transmission[^1] is a open-source, cross-platform bittorrent client. One of its advantages is that there are multiple remote clients you can use to connect to a running transmission daemon (through its RPC API) to manage your downloads.
+Transmission[^1] is a open-source, cross-platform bittorrent client. There are multiple remote clients you can use to connect to a running transmission daemon (through its RPC API) to manage your downloads.
 
-The goal is to compile and create a snap package for the latest stable release of transmission daemon (2.84).
+Our goal, compile and create a snap package for the latest stable release of Transmission (2.84), particularly, its daemon.
 
 [^1]: http://www.transmissionbt.com/
 
@@ -31,7 +31,7 @@ Building Transmission
 
 To build Transmission (written in C) we will need a few tools installed first; there are also some dependencies/libraries that we have to compile in order to get the final binaries. We will need to provide those compiled libraries in our snap package too (because our application will run isolated in Ubuntu Core).
 
-I will be running all this building steps in my host computer running Ubuntu 64 bits. This means I'll be getting amd64 binaries as a result (which means, after packaging we will have an amd64 snap package, runnable in our Snappy VM). In a future post I will describe how to build Transmission for ARM and how to package it in a multi-architecture snap.
+I will be running all this building steps in my host computer, running Ubuntu 64 bits. This means I'll be getting amd64 binaries as a result (which means, after packaging we will have an amd64 snap package, runnable in our Snappy VM). In a future post I will hopefully describe how to build Transmission for ARM, and how to package it in a multi-architecture snap.
 
 ### Installing required tools
 
@@ -151,6 +151,6 @@ Coming next
 And that's it, we have transmission daemon compiled and running, completely isolated from system dependencies. Next steps will be:
 
 * Build initial snap package
-* Build transmission for ARM (using Raspberry 2 setup)
+* Build Transmission for ARM (using Raspberry 2 setup)
 * Build multi-architecture snap package
-* Build transmission using snapcraft
+* Build Transmission using snapcraft
