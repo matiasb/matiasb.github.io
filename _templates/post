@@ -1,6 +1,7 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
+author: matiasb
 modified:
 categories: {{ dir }}
 comments: true
