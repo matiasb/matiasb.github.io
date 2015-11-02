@@ -12,7 +12,7 @@ image:
 date: 2015-10-20T21:36:19-03:00
 ---
 
-*This is part of a series describing how I got transmission compiled and running for Snappy Ubuntu Core.*
+*This is part of a series describing how I got [Transmission](https://uappexplorer.com/app/transmission.matiasb) compiled and running for Snappy Ubuntu Core.*
 {: .notice}
 
 
@@ -110,7 +110,7 @@ Coming next
 
 And that's it, we have our initial development environment setup. Next steps will be:
 
-* Build transmission from source
+* [Build transmission from source]({% post_url en/2015-10-30-building-transmission-from-source %})
 * Build initial snap package
 * Build transmission for ARM (using Raspberry 2 setup)
 * Build multi-architecture snap package
