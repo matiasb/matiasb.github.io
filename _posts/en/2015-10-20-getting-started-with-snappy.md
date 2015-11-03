@@ -110,7 +110,7 @@ Coming next
 
 And that's it, we have our initial development environment setup. Next steps will be:
 
-* [Build Transmission from source]({% post_url en/2015-10-30-building-transmission-from-source %})
+* [Build Transmission from source](/en/building-transmission-from-source)
 * Build initial snap package
 * Build Transmission for ARM (using Raspberry 2 setup)
 * Build multi-architecture snap package
