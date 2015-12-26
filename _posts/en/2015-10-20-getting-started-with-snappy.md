@@ -12,7 +12,7 @@ image:
 date: 2015-10-20T21:36:19-03:00
 ---
 
-*This is part of a series describing how I got [Transmission](https://uappexplorer.com/app/transmission.matiasb) compiled and running for Snappy Ubuntu Core.*
+*This is part of a [series](/tags/#snappy) describing how I got [Transmission](https://uappexplorer.com/app/transmission.matiasb) compiled and running for Snappy Ubuntu Core.*
 {: .notice}
 
 
