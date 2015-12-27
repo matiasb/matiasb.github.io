@@ -150,7 +150,7 @@ Coming next
 
 And that's it, we have transmission daemon compiled and running, completely isolated from system dependencies. Next steps will be:
 
-* Build initial snap package
+* [Manually snap packaging Transmission](/en/snap-packaging-transmission)
 * Build Transmission for ARM (using Raspberry 2 setup)
 * Build multi-architecture snap package
 * Build Transmission using snapcraft
