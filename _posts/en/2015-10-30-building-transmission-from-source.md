@@ -36,7 +36,7 @@ I will be running all this building steps in my host computer, running Ubuntu 64
 ### Installing required tools
 
 {% highlight bash %}
-$ sudo apt-get install install build-essentials pkg-config autoconf automake
+$ sudo apt-get install install build-essential pkg-config autoconf automake
 {% endhighlight %}
 
 ### Getting dependencies and Transmission sources
@@ -69,7 +69,7 @@ $ cd deps
 #### libevent
 
 {% highlight bash %}
-$ wget https://sourceforge.net/projects/levent/files/libevent/libevent-2.0/libevent-2.0.22-stable.tar.gz
+$ wget https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz
 $ tar xvfz libevent-2.0.22-stable.tar.gz
 $ cd libevent-2.0.22-stable
 $ ./configure --prefix=/home/matiasb/projects/snappy/build
@@ -151,6 +151,6 @@ Coming next
 And that's it, we have transmission daemon compiled and running, completely isolated from system dependencies. Next steps will be:
 
 * [Manually snap packaging Transmission](/en/snap-packaging-transmission)
-* Build Transmission for ARM (using Raspberry 2 setup)
-* Build multi-architecture snap package
+* [Build Transmission for ARM](/en/build-transmission-arm/)
+* [Build multi-architecture snap package](/en/build-multiarchitecture-package/)
 * Build Transmission using snapcraft

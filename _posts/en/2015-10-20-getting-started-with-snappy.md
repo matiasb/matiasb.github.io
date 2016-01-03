@@ -112,6 +112,6 @@ And that's it, we have our initial development environment setup. Next steps wil
 
 * [Build Transmission from source](/en/building-transmission-from-source)
 * [Manually snap packaging Transmission](/en/snap-packaging-transmission)
-* Build Transmission for ARM (using Raspberry 2 setup)
-* Build multi-architecture snap package
+* [Build Transmission for ARM](/en/build-transmission-arm/)
+* [Build multi-architecture snap package](/en/build-multiarchitecture-package/)
 * Build Transmission using snapcraft

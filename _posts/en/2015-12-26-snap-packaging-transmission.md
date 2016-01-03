@@ -205,6 +205,6 @@ Coming next
 And that's it, we have a working Transmission snap package for amd64. Next steps will be:
 
 
-* Build transmission for ARM (using Raspberry 2 setup)
-* Build multi-architecture snap package
-* Build transmission using snapcraft
+* [Build Transmission for ARM](/en/build-transmission-arm/)
+* [Build multi-architecture snap package](/en/build-multiarchitecture-package/)
+* Build Transmission using snapcraft
