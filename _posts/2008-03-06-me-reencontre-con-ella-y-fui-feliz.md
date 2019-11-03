@@ -1,8 +1,5 @@
 ---
 title: Me reencontré con ella y fui feliz
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio, futbol]
 ---

@@ -1,15 +1,11 @@
 ---
-layout: post
+
 title: Not in this lifetime
-author: matiasb
-modified:
 categories: [es]
-comments: true
 tags: [musica, recital]
-image:
-  feature: 2016/07/gnr.jpeg
-  credit: twitter/gunsnroses
-  creditlink: https://twitter.com/gunsnroses/status/754775626679144449
+header:
+  image: images/2016/07/gnr.jpeg
+  caption: "[twitter/gunsnroses](https://twitter.com/gunsnroses/status/754775626679144449)"
 date: 2016-07-18T13:45:58-03:00
 ---
 

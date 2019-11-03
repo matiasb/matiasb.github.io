@@ -1,10 +1,7 @@
 ---
-layout: post
+
 title: Son rachas
-author: matiasb
-modified:
 categories: [es]
-comments: true
 tags:
 date: 2016-08-05T10:00:00-03:00
 ---

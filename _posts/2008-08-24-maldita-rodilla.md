@@ -1,8 +1,5 @@
 ---
 title: Maldita rodilla
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [futbol]
 ---

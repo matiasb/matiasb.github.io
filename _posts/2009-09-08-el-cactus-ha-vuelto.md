@@ -1,8 +1,5 @@
 ---
 title: El cactus ha vuelto!
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [proyecto,python,futbol]
 ---

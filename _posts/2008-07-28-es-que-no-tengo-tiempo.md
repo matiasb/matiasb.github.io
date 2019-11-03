@@ -1,8 +1,5 @@
 ---
 title: Es que no tengo tiempo...
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio, tiempo]
 ---

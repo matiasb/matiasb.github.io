@@ -1,14 +1,9 @@
 ---
-layout: post
+
 title: Manually snap packaging Transmission
-modified:
-author: matiasb
 categories: [en]
-comments: true
 excerpt: Third post on a series about building Transmission snap package.
 tags: [snappy, ubuntu]
-image:
-  feature:
 date: 2015-12-26T21:36:19-03:00
 ---
 

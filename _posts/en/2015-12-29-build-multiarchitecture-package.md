@@ -1,14 +1,9 @@
 ---
-layout: post
+
 title: Build multi-architecture snap package
-modified:
-author: matiasb
 categories: [en]
-comments: true
 excerpt: Fifth post on a series about building Transmission snap package.
 tags: [snappy, ubuntu]
-image:
-  feature:
 date: 2015-12-29T20:01:00-03:00
 ---
 

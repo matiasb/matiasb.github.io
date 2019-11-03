@@ -1,8 +1,5 @@
 ---
 title: Cosquín Rock 2008 - Día 3
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [musica, cosquín rock, recital]
 ---

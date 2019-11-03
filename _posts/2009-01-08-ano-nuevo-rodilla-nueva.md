@@ -1,8 +1,5 @@
 ---
 title: Año nuevo, rodilla nueva
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [futbol, delirio]
 ---

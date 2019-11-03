@@ -1,14 +1,11 @@
 ---
-layout: post
+
 title: En una noche de enero, Un día de Julio
-author: matiasb
-modified:
 categories: [es]
-comments: true
 excerpt: Presentación de Agarrate Catalina en Colonia
 tags: [recital, uruguay]
-image:
-  feature: 2016/01/agarrate.jpg
+header:
+  image: images/2016/01/agarrate.jpg
 date: 2016-01-11T13:45:58-03:00
 ---
 

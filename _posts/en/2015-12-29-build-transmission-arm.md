@@ -1,14 +1,9 @@
 ---
-layout: post
+
 title: Build Transmission for ARM
-modified:
-author: matiasb
 categories: [en]
-comments: true
 excerpt: Fourth post on a series about building Transmission snap package.
 tags: [snappy, ubuntu]
-image:
-  feature:
 date: 2015-12-29T20:00:00-03:00
 ---
 

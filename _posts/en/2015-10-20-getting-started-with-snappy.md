@@ -1,14 +1,9 @@
 ---
-layout: post
+
 title: Getting Started With Snappy
-modified:
-author: matiasb
 categories: [en]
-comments: true
 excerpt: First post on a series about building Transmission snap package.
 tags: [snappy, ubuntu]
-image:
-  feature:
 date: 2015-10-20T21:36:19-03:00
 ---
 

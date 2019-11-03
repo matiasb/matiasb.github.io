@@ -1,8 +1,5 @@
 ---
 title: El eterno retorno
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio]
 ---

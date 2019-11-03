@@ -1,8 +1,5 @@
 ---
 title: José sabía... y yo ahora también
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio, hada]
 ---

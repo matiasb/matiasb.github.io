@@ -1,8 +1,5 @@
 ---
 title: Y yo mal por una pubalgia
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [futbol, lesion]
 ---

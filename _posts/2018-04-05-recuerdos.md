@@ -1,13 +1,10 @@
 ---
-layout: post
+
 title: Uno era yo
-author: matiasb
-modified:
 categories: [es]
-comments: true
 excerpt:
-image:
-  feature: 2018/04/pase.jpg
+header:
+  image: images/2018/04/pase.jpg
 tags: [fútbol, recuerdos]
 date: 2018-04-05T19:00:00-03:00
 ---

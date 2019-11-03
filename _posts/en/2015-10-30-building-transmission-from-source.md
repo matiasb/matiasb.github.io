@@ -1,14 +1,9 @@
 ---
-layout: post
+
 title: Building Transmission from source
-modified:
-author: matiasb
 categories: [en]
-comments: true
 excerpt: Second post on a series about building Transmission snap package.
 tags: [snappy, ubuntu]
-image:
-  feature:
 date: 2015-10-30T21:36:19-03:00
 ---
 

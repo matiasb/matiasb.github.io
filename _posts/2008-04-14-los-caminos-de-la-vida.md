@@ -1,8 +1,5 @@
 ---
 title: Los caminos de la vida
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [caminata, sacuyismo]
 ---

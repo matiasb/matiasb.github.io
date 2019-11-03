@@ -1,8 +1,5 @@
 ---
 title: Complot celular
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio, celular]
 ---

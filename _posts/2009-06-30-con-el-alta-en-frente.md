@@ -1,8 +1,5 @@
 ---
 title: Con el alta en frente
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [futbol, lesion]
 ---

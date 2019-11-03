@@ -1,8 +1,5 @@
 ---
 title: No te mueras sin decirme dónde vas
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [delirio, muerte]
 ---

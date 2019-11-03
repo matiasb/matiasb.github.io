@@ -1,8 +1,5 @@
 ---
 title: Django Day Córdoba
-author: matiasb
-layout: post
-comments: true
 categories: [es]
 tags: [python, django, charlas]
 ---

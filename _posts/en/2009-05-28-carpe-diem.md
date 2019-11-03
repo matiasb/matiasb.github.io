@@ -1,7 +1,5 @@
 ---
 title: Carpe diem
-author: matiasb
-layout: post
 categories: [en]
 tags: [general]
 ---
